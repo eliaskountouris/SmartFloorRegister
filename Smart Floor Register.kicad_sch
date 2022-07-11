@@ -63,4 +63,10 @@
     (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c" (page "4"))
     (path "/ed227731-8e20-48d6-ab3d-3bb44546ae2c" (page "5"))
   )
+
+  (symbol_instances
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/9aa4051b-5d8e-420b-bd92-028862775303"
+      (reference "U?") (unit 1) (value "ATmega32U4-M") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
+    )
+  )
 )
