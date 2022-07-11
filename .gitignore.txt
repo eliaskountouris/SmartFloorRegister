@@ -1,0 +1,2 @@
+Smart Floor Register-backups
+*.kicad_prl
