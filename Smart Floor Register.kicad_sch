@@ -15,7 +15,7 @@
     (property "Sheet name" "Servo" (id 0) (at 165.1 98.3484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Schematics\\servo.kicad_sch" (id 1) (at 165.1 114.8846 0)
+    (property "Sheet file" "Schematics/servo.kicad_sch" (id 1) (at 165.1 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -27,7 +27,7 @@
     (property "Sheet name" "MCU" (id 0) (at 124.46 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Schematics\\MCU.kicad_sch" (id 1) (at 124.46 140.2846 0)
+    (property "Sheet file" "Schematics/MCU.kicad_sch" (id 1) (at 124.46 140.2846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -39,7 +39,19 @@
     (property "Sheet name" "tempSensor" (id 0) (at 165.1 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Schematics\\tempSensor.kicad_sch" (id 1) (at 165.1 92.0246 0)
+    (property "Sheet file" "Schematics/tempSensor.kicad_sch" (id 1) (at 165.1 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 83.82 111.125) (size 35.56 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5852d82-8ff6-4012-ac66-763fa215a023)
+    (property "Sheet name" "IO" (id 0) (at 83.82 110.4134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Schematics/IO.kicad_sch" (id 1) (at 83.82 140.2846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -51,7 +63,7 @@
     (property "Sheet name" "Fans" (id 0) (at 83.82 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Schematics\\fans.kicad_sch" (id 1) (at 83.82 92.0246 0)
+    (property "Sheet file" "Schematics/fans.kicad_sch" (id 1) (at 83.82 92.0246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -62,11 +74,45 @@
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0" (page "3"))
     (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c" (page "4"))
     (path "/ed227731-8e20-48d6-ab3d-3bb44546ae2c" (page "5"))
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023" (page "6"))
   )
 
   (symbol_instances
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/0ba5132d-9905-4101-b8fb-d13fd8eb3278"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/33b8dcc0-1a9b-40a0-97ec-c23023a23c96"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/72c0072b-392e-4e7f-97f5-dd28eacd0e25"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/781801cc-7cbe-41ec-88cd-6260168418c2"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/c2f2a113-ef08-4a50-83fd-9e527d0d90f6"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/df26c841-4ff3-4cde-959c-1d6a7c88c93e"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/027587c6-5a8d-4b56-aa6d-ac51c1c0279d"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/317cf53b-7c2d-48ed-ac0b-c02d04fc9aba"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/645e38cc-aaf0-425a-9ead-62a84a8ca331"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/b59f5cd4-3d0b-4837-87b8-455eb74be610"
+      (reference "J?") (unit 1) (value "USB_B_Micro") (footprint "")
+    )
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/9aa4051b-5d8e-420b-bd92-028862775303"
       (reference "U?") (unit 1) (value "ATmega32U4-M") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
+    )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/6e0cb104-c4a0-43c8-bedf-8a80f0d18d8f"
+      (reference "Y?") (unit 1) (value "16MHz ") (footprint "")
     )
   )
 )
