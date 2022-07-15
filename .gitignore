@@ -1,3 +1,5 @@
 Smart Floor Register-backups/
 *.kicad_prl
 Smart Floor Register.kicad_prl
+sym-lib-table
+*.ods

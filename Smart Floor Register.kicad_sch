@@ -90,6 +90,9 @@
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/781801cc-7cbe-41ec-88cd-6260168418c2"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/a069176b-4e6a-428d-afef-40f4b660b3d0"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/c2f2a113-ef08-4a50-83fd-9e527d0d90f6"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
@@ -107,6 +110,9 @@
     )
     (path "/e5852d82-8ff6-4012-ac66-763fa215a023/b59f5cd4-3d0b-4837-87b8-455eb74be610"
       (reference "J?") (unit 1) (value "USB_B_Micro") (footprint "")
+    )
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/2ca6adc3-32cf-4a09-99ec-7132fa9b0804"
+      (reference "R?") (unit 1) (value "0R") (footprint "")
     )
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/9aa4051b-5d8e-420b-bd92-028862775303"
       (reference "U?") (unit 1) (value "ATmega32U4-M") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
