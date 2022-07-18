@@ -340,6 +340,10 @@
     [
       "e5852d82-8ff6-4012-ac66-763fa215a023",
       "IO"
+    ],
+    [
+      "f99fd107-6bfd-4782-b1b5-5fe450dca1f7",
+      "Power"
     ]
   ],
   "text_variables": {}
