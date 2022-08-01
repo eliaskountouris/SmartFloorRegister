@@ -326,7 +326,7 @@
     (property "Value" "Motor_Servo" (id 1) (at 160.02 103.7065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 151.13 107.696 0)
+    (property "Footprint" "SFRFootprints:Servo" (id 2) (at 151.13 107.696 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (id 3) (at 151.13 107.696 0)
