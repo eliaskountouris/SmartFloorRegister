@@ -110,9 +110,6 @@
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/33b8dcc0-1a9b-40a0-97ec-c23023a23c96"
       (reference "#PWR02") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/5e5a56a9-6985-43e9-9df6-1b20bca0d573"
-      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/1e1ca93e-3b9a-4f1e-b6c9-bd948719fd21"
       (reference "#PWR04") (unit 1) (value "Earth") (footprint "")
     )
@@ -257,6 +254,15 @@
     (path "/4c854498-415b-4279-aefd-cc33b3810cb6/52ff1488-ab32-4719-b5e9-2edd32bb2e1e"
       (reference "#PWR051") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/317b86e7-197f-4566-a32e-e2c28692be8c"
+      (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c/1d7a82cf-4bf2-4c50-ab42-4223cc0fc748"
+      (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c/c3b1bb03-80b2-4596-b267-28674cb0f376"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/d142b550-aa1a-4c31-9ba2-61dd1c2db3a4"
       (reference "A1") (unit 1) (value "ZTP-148SRC1") (footprint "SFRFootprints:Thermopile")
     )
@@ -310,6 +316,9 @@
     )
     (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c/ccb8a57e-8edb-42cc-8904-1d400babb0c5"
       (reference "M1") (unit 1) (value "Motor_Servo") (footprint "SFRFootprints:Servo")
+    )
+    (path "/3b809d5e-1cd6-4bd7-8775-d6e8648b017c/96391fad-f6f0-490c-87c5-fdfb0b785f14"
+      (reference "M2") (unit 1) (value "Motor_Servo") (footprint "SFRFootprints:Servo")
     )
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/24dc674e-688d-4686-9cc4-685920f19804"
       (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -378,12 +387,12 @@
       (reference "R22") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f99fd107-6bfd-4782-b1b5-5fe450dca1f7/72f86d83-9f7a-45b6-9cea-4d05d344662b"
-      (reference "S1") (unit 1) (value "a") (footprint "SW_JS102011SAQN")
+      (reference "S1") (unit 1) (value "a") (footprint "SFRFootprints:SW_JS102011SAQN")
     )
-    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/c9023c08-d9a0-4f23-b132-4ed77ce3d7a5"
-      (reference "SW1") (unit 1) (value "RESET") (footprint "SFRFootprints:R-667843")
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/b96b3d2d-a5d1-4660-8f45-9f3377f4cfc4"
+      (reference "SW1") (unit 1) (value "Rest") (footprint "SFRFootprints:R-667843")
     )
-    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/0f186934-d2ad-4105-8b5d-5d82368e8905"
+    (path "/e5852d82-8ff6-4012-ac66-763fa215a023/fd1ea769-87dc-4913-80ee-4ea84cdf8d78"
       (reference "SW2") (unit 1) (value "PEN") (footprint "SFRFootprints:R-667843")
     )
     (path "/e5852d82-8ff6-4012-ac66-763fa215a023/c6e9330d-af51-4338-9954-2c404b49f8c0"
@@ -439,6 +448,9 @@
     )
     (path "/4c854498-415b-4279-aefd-cc33b3810cb6/30e93e47-e663-49a2-a24a-6ce47108cdbb"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/4c854498-415b-4279-aefd-cc33b3810cb6/7fdd8242-617c-42cf-901a-d896efaefb79"
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/49126cb1-3295-4f9c-ba5a-a7f1d530269a/53e8db9e-994c-48e6-8ffd-5521a30d968c"
       (reference "U1") (unit 1) (value "ATmega64A-A") (footprint "Package_QFP:TQFP-64_14x14mm_P0.8mm")

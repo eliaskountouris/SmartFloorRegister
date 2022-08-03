@@ -794,7 +794,7 @@
     (property "Value" "a" (id 1) (at 100.33 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "SW_JS102011SAQN" (id 2) (at 100.33 93.345 0)
+    (property "Footprint" "SFRFootprints:SW_JS102011SAQN" (id 2) (at 100.33 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.33 93.345 0)
