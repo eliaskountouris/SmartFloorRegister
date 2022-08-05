@@ -526,7 +526,7 @@
   )
 
   (no_connect (at 162.56 60.96) (uuid 6d46d9bd-9815-4405-8e5c-430e9da8b3cf))
-  (no_connect (at 132.08 147.32) (uuid 6d46d9bd-9815-4405-8e5c-430e9da8b3cf))
+  (no_connect (at 132.08 147.32) (uuid 6d46d9bd-9815-4405-8e5c-430e9da8b3d0))
   (no_connect (at 132.08 96.52) (uuid 9fd844ca-a3b8-4763-89e0-956f12cbd359))
   (no_connect (at 132.08 93.98) (uuid 9fd844ca-a3b8-4763-89e0-956f12cbd35a))
   (no_connect (at 132.08 91.44) (uuid 9fd844ca-a3b8-4763-89e0-956f12cbd35b))
