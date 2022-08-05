@@ -458,7 +458,7 @@
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/95d97b5f-36fd-4e73-b895-79c201fd0a09"
       (reference "U2") (unit 1) (value "Opamp_Dual") (footprint "SFRFootprints:AD8539ARMZ-REEL")
     )
-    (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/0abb3485-4c94-4b49-aacd-a371f8966060"
+    (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/cb022d4a-87a6-49aa-ae94-62d630e55fb8"
       (reference "U2") (unit 2) (value "Opamp_Dual") (footprint "SFRFootprints:AD8539ARMZ-REEL")
     )
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/6fb634c9-d990-4890-abb2-aeafbe19b9e7"
@@ -467,7 +467,7 @@
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/0094c8d8-6c99-4b13-a3dc-0e012ff7c893"
       (reference "U3") (unit 1) (value "Opamp_Dual") (footprint "SFRFootprints:AD8539ARMZ-REEL")
     )
-    (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/cb022d4a-87a6-49aa-ae94-62d630e55fb8"
+    (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/0abb3485-4c94-4b49-aacd-a371f8966060"
       (reference "U3") (unit 2) (value "Opamp_Dual") (footprint "SFRFootprints:AD8539ARMZ-REEL")
     )
     (path "/49e9801a-ca64-4887-acaa-1852b72c90b0/3f4b3531-3c60-434f-93c4-5f39be173861"
