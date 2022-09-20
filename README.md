@@ -8,6 +8,7 @@ It also drives 2 motor controls (using I2C) and a servo (using PWM).
 
 Power is driven by either batteries or a usb for debugging. A boost converter is on board to power the motors and servos.
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 
