@@ -8,7 +8,12 @@ It also drives 2 motor controls (using I2C) and a servo (using PWM).
 
 Power is driven by either batteries or a usb for debugging. A boost converter is on board to power the motors and servos.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+## PCB Image
 
+![alt text](https://github.com/eliaskountouris/SmartFloorRegister/blob/master/floorVent.jpg?raw=true)
+
+## Schematics
+
+There is a schematic file (Schematic.pdf) detailing the workings of the controller board.
 
 
